@@ -1,4 +1,5 @@
 import 'package:app/models/movie_model.dart';
+import 'package:app/screens/videoplayer_screen.dart';
 import 'package:app/widgets/content_scroll.dart';
 import 'package:flutter/material.dart';
 
@@ -51,10 +52,17 @@ class _MovieScreenState extends State<MovieScreen> {
                   iconSize: 30.0,
                   color: Colors.white,
                   ),
-                  Image(
-                    image: AssetImage('assets/images/netflix_logo.png'),
-                    height: 60.0,
-                    width: 150.0,
+                  Padding(
+                    padding: const EdgeInsets.only(top: 1.5),
+                    child: Text('TOPFILMES',
+                      style: TextStyle(
+                        color: Color.fromRGBO(139,0,0,1),
+                        fontWeight: FontWeight.bold,
+                        fontSize: 25,
+                        letterSpacing: 2,
+                        
+                      ),
+                        ),
                   ),
                   IconButton(
                     padding: EdgeInsets.only(left: 30.0),
@@ -72,7 +80,7 @@ class _MovieScreenState extends State<MovieScreen> {
                 child: RawMaterialButton(
                   padding: EdgeInsets.all(10.0),
                   elevation: 12.0,
-                  onPressed: () => print('Play video'),
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => VideoPlayer())),
                   shape: CircleBorder(),
                   fillColor: Colors.white,
                   child: Icon(Icons.play_arrow, size: 60.0, color: Colors.red,)

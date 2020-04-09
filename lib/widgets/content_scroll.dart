@@ -1,4 +1,5 @@
 
+import 'package:app/screens/movieScreen.dart';
 import 'package:flutter/material.dart';
 
 class ContentScroll extends StatelessWidget {
@@ -8,6 +9,7 @@ class ContentScroll extends StatelessWidget {
   final double imageWidth;
 
   ContentScroll({this.images, this.title, this.imageHeight, this.imageWidth});
+
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +32,7 @@ class ContentScroll extends StatelessWidget {
               ),
               
               GestureDetector(
-                onTap: () => print('View $title'),
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => MovieScreen())),
                 child: Icon(
                   Icons.arrow_forward,
                   color: Colors.white,

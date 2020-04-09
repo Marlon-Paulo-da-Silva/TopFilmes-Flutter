@@ -1,16 +1,32 @@
-# app
+<h1 align="center">
 
-A new Flutter project.
+<br>
+Top Filmes
+</h1>
 
-## Getting Started
+<p align="center">Aplicativo de filmes</p>
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+<div align="center">
+  <img align="center" src="https://github.com/Marlon-Paulo-da-Silva/TopFilmes-Flutter/blob/master/appmovie.jpg" alt="demo" height="425">
+  <img align="center" src="https://github.com/Marlon-Paulo-da-Silva/TopFilmes-Flutter/blob/master/gifappmovie.gif" alt="demo" height="425">
+  <img align="center" src="https://github.com/Marlon-Paulo-da-Silva/TopFilmes-Flutter/blob/master/appmovie2.jpg" alt="demo" height="425">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+</div>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<hr />
+
+## Características
+
+Essa aplicação utiliza as mais atualizadas ferramentas para desenvolvimento Mobile:
+
+**Flutter** — O Flutter, um framework desenvolvido pelo Google na linguagem Dart, permite o desenvolvimento de aplicações nativas tanto para Android quanto para iOS a partir da composição de Widgets.
+
+## Licença
+
+Esse projeto está licenciado pela MIT License - veja a pagina de detalhes da [Licença](https://opensource.org/licenses/MIT).
